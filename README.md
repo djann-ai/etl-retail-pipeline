@@ -40,12 +40,11 @@ Verification: MD5 checksums, row counts
 
 Структура проекта
 etl-retail-pipeline/
-│
-├── dags/               # DAG-и Airflow
-├── sql/                # SQL-скрипты для создания/загрузки таблиц
-├── docs/               # Документация, скриншоты, графов DAG, папка с источником данных
-├── requirements.txt    # Зависимости Python
-└── README.md           # Описание проекта
+dags/               # DAG-и Airflow
+sql/                # SQL-скрипты для создания/загрузки таблиц
+docs/               # Документация, скриншоты, графов DAG, папка с источником данных
+requirements.txt
+README.md
 
 Реализованные DAG-и
 1. stg_load_with_verification
